@@ -17,10 +17,10 @@ printf("Total:%.2f", total);
 printf("Moyenne:%.2f", moy);
 
 
-if(moy >= 90)
+if(moy<= 90)
  printf("Mention Excellent");
     else if (moy >= 80)
-        printf("Mention Très bien");
+        printf("Mention TrÃ¨s bien");
     else if(moy >= 70)
     printf("Mention Bien");
     else if(moy>= 60)
@@ -29,13 +29,14 @@ if(moy >= 90)
      printf("Mention echec");
 
   if(moy >= 50)
-    printf("Réussi");
+    printf("RÃ©ussi");
     else
-    printf("Échoué");
+    printf("Ã‰chouÃ©");
 
 
 
 return 0;
 }
+
 
 
