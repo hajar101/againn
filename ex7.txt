@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    char c;
+    printf("Entrez un caractère : ");
+    scanf(" %c", &c);
+
+    if (c >= 65 && c <= 90)
+        printf("%c est une majuscule.\n", c);
+    else
+        printf("%c n'est pas une majuscule.\n", c);
+
+    return 0;
+}

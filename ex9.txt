@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    char c;
+    printf("Entrez un caractère : ");
+    scanf(" %c", &c);
+
+    if (c >= 'A' && c <= 'Z')
+        printf("Majuscule.\n");
+    else if (c >= 'a' && c <= 'z')
+        printf("Minuscule.\n");
+    else
+        printf("Pas une lettre.\n");
+
+    return 0;
+}

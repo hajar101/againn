@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    char *jours[] = {"Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"};
+    srand(time(NULL));
+    int n = rand() % 7;  
+    printf("Jour choisi : %s\n", jours[n]);
+    return 0;
+}
