@@ -1,17 +1,1 @@
-#include <stdio.h>
 
-int main() {
-    int j, m, a;
-    char *mois[] = {"", "Janvier","Février","Mars","Avril","Mai","Juin",
-                    "Juillet","Août","Septembre","Octobre","Novembre","Décembre"};
-
-    printf("Entrez une date (jj mm aaaa) : ");
-    scanf("%d %d %d", &j, &m, &a);
-
-    if (m >= 1 && m <= 12)
-        printf("%d-%s-%d\n", j, mois[m], a);
-    else
-        printf("Mois invalide.\n");
-
-    return 0;
-}
