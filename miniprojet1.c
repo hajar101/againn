@@ -27,7 +27,7 @@ min = n1;
 if(moy >= 90)
     mention="Excellent";
  else if (moy >= 80)
-     mention="Très bien";
+     mention="TrÃ¨s bien";
 else if(moy >= 70)
      mention="Bien";
 else if(moy>= 60)
@@ -45,13 +45,14 @@ printf("Total:%.2f", total);
 printf("Moyenne:%.2f", moy);
 
 if(moy >= 50)
-    printf("Réussi");
+    printf("RÃ©ussi");
     else
-    printf("Échoué");
+    printf("Ã‰chouÃ©");
 
 
 
 return 0;
 }
+
 
 
