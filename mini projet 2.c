@@ -38,7 +38,7 @@ int main()
         }
 
         if (correct == 0) {
-            printf("Mauvaise réponse !\n");
+            printf("Mauvaise rÃ©ponse !\n");
         }
                 // check if the whole word has been found
         for (i = 0; i < 7; i++) {
@@ -54,3 +54,4 @@ int main()
     }
     return 0;
 }
+
